@@ -15,5 +15,3 @@ Weight = float(input("Your weight "))
 BMI = Weight / Height ** 2 
 print(BMI)
 
-#>, <, >=, <=, ==, !=
-print(10 > 5)
