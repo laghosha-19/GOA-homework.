@@ -27,21 +27,12 @@ print("accsess granted")
 
 
 
-
-
 #საკლასო დავალება:
 #რიცხვის გამოცნობის პროგრამა:
 #შექმენით my_num ცვლადი და 1-დან 10-მდე ნებისმიერი რიცხვი მიანიჭეთ მნიშვნელობად.
 #სანამ მომხმარებლის შემოტანილი რიცხვი არ იქნება my_num-ის ტოლი, ისევ შეეკითხეთ მომხმარებელს ეს რიცხვი.
 #საბოლოოდ დაუბეჭდეთ "you guessed" და რამდენი ცდა დაჭირდა
 
-
-# my_num = 7
-# user_guess = input("Guess number from 1 to 10: ")
-# while user_guess != my_num:
-#     user_guess = input("Guess number")
-#     counter += 1
-# print("You guessed,  and your guess try: ", str (counter) )
 
 my_num = 7
 user_num = int(input("Enter number: "))
