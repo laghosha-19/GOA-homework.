@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Level-17</title>
+    </head>
+    <body>
+        <form>
+<!--საკლასო დავალება: შექმენით ჩამოსაშლელი მენიუ სადაც იქნება 10 option.
+ყველა option-ს უნდა ქონდეს value ატრიბუტი, select-ს გაუწერეთ name ატრიბუტი და ეს მენიუ დააკავშირეთ label-თან-->
+            <select name="Car-brands">
+                <label for="id1">Cars:</label> 
+                <option id="id1" selected value="Mercedes">Mercedes</option>
+                <option value="Alfa romeo">Alfa romeo</option>
+                <option value="BMW">BMW</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Audi">Audi</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Ford">Ford</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Porsche">Porsche</option>
+                <br><br>
+                <input type="submit">
+            </select>
+        </form>
+<!--საკლასო დავალება:ვებსაიტზე დაამატეთ ვიდეო და კოდის წერისას გამოიყენეთ 2 source თეგი. ვიდეოს ასევე გაუწერეთ controls ატრიბუტი.
+იუთუბზე აირჩიეთ ნებისმიერი ვიდეო და iframe-ს გამოყენებით ჩანერგეთ ის ვებსაიტზე.
+შექმენით ჩამოსაშლელი მენიუ და მასში დაამატეთ 5 ვარიანტი (option). ეს მენიუ დააკავშირეთ label-თან-->
+        <video controls width="600px" height="600px">
+            <source src="countdown.mp4" type="video/mp4">
+            <source src="countdown2.mkv" type="video/mkv">
+            video not found
+            <br><br><br>
+        </video>
+        <iframe width="600" height="300" src="https://www.youtube.com/embed/WiFaMCbInHM" title="git &amp; github-ზე ატვირთვა" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <form>
+            <select name="videos:">
+                <label for="id2"></label>
+                <option id="id2" value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            <br><br>
+        </form>
+    </body>
+</html>
